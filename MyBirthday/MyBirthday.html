@@ -65,14 +65,12 @@
                 </div>
 
                 <!-- 5. Phần nhạc -->
-                <!-- <audio id="player" autoplay loop>
-                    <source src="./music.mp3" type="audio/mp3">
-                </audio> -->
+                <audio id="myAudio">
+                    <source src="music.mp3" type="audio/mpeg" />
+                </audio>
             </div>
         </div>
-        <audio id="myAudio">
-            <source src="music.mp3" type="audio/mpeg" />
-        </audio>
+
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");

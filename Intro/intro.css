@@ -12,7 +12,7 @@ body {
 .container {
   display: grid;
   place-items: center;
-  background: #1aabe3;
+  background: rgba(242, 58, 165, 0.9);
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
